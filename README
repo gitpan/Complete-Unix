@@ -1,0 +1,99 @@
+NAME
+    Complete::Unix - Unix-related completion routines
+
+VERSION
+    This document describes version 0.01 of Complete::Unix (from Perl
+    distribution Complete-Unix), released on 2014-06-29.
+
+DESCRIPTION
+FUNCTIONS
+  complete_gid(%args) -> array
+    Complete from list of Unix GID's.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool* (default: 0)
+
+    *   etc_dir => *str*
+
+    *   word => *str* (default: "")
+
+    Return value:
+
+  complete_group(%args) -> array
+    Complete from list of Unix groups.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool* (default: 0)
+
+    *   etc_dir => *str*
+
+    *   word => *str* (default: "")
+
+    Return value:
+
+  complete_pid(%args) -> array
+    Complete from list of running PIDs.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool* (default: 0)
+
+    *   word => *str* (default: "")
+
+    Return value:
+
+  complete_uid(%args) -> array
+    Complete from list of Unix UID's.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool* (default: 0)
+
+    *   etc_dir => *str*
+
+    *   word => *str* (default: "")
+
+    Return value:
+
+  complete_user(%args) -> array
+    Complete from list of Unix users.
+
+    Arguments ('*' denotes required arguments):
+
+    *   ci => *bool* (default: 0)
+
+    *   etc_dir => *str*
+
+    *   word => *str* (default: "")
+
+    Return value:
+
+SEE ALSO
+    Complete::Util
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Complete-Unix>.
+
+SOURCE
+    Source repository is at
+    <https://github.com/sharyanto/perl-Complete-Unix>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Complete-Unix>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
