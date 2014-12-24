@@ -2,8 +2,8 @@ NAME
     Complete::Unix - Unix-related completion routines
 
 VERSION
-    This document describes version 0.01 of Complete::Unix (from Perl
-    distribution Complete-Unix), released on 2014-06-29.
+    This document describes version 0.02 of Complete::Unix (from Perl
+    distribution Complete-Unix), released on 2014-12-24.
 
 DESCRIPTION
 FUNCTIONS
@@ -12,63 +12,73 @@ FUNCTIONS
 
     Arguments ('*' denotes required arguments):
 
-    *   ci => *bool* (default: 0)
+    *   ci => *bool*
 
     *   etc_dir => *str*
 
     *   word => *str* (default: "")
 
     Return value:
+
+     (array)
 
   complete_group(%args) -> array
     Complete from list of Unix groups.
 
     Arguments ('*' denotes required arguments):
 
-    *   ci => *bool* (default: 0)
+    *   ci => *bool*
 
     *   etc_dir => *str*
 
     *   word => *str* (default: "")
 
     Return value:
+
+     (array)
 
   complete_pid(%args) -> array
     Complete from list of running PIDs.
 
     Arguments ('*' denotes required arguments):
 
-    *   ci => *bool* (default: 0)
+    *   ci => *bool*
 
     *   word => *str* (default: "")
 
     Return value:
+
+     (array)
 
   complete_uid(%args) -> array
     Complete from list of Unix UID's.
 
     Arguments ('*' denotes required arguments):
 
-    *   ci => *bool* (default: 0)
+    *   ci => *bool*
 
     *   etc_dir => *str*
 
     *   word => *str* (default: "")
 
     Return value:
+
+     (array)
 
   complete_user(%args) -> array
     Complete from list of Unix users.
 
     Arguments ('*' denotes required arguments):
 
-    *   ci => *bool* (default: 0)
+    *   ci => *bool*
 
     *   etc_dir => *str*
 
     *   word => *str* (default: "")
 
     Return value:
+
+     (array)
 
 SEE ALSO
     Complete::Util
@@ -79,7 +89,7 @@ HOMEPAGE
 
 SOURCE
     Source repository is at
-    <https://github.com/sharyanto/perl-Complete-Unix>.
+    <https://github.com/perlancar/perl-Complete-Unix>.
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
@@ -89,10 +99,10 @@ BUGS
     to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
-    Steven Haryanto <stevenharyanto@gmail.com>
+    perlancar <perlancar@cpan.org>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2014 by Steven Haryanto.
+    This software is copyright (c) 2014 by perlancar@cpan.org.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
